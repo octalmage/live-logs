@@ -17,6 +17,12 @@ program
 	.option('-r, --regex [regex]', 'regex for matching the IP address')
 	.parse(process.argv);
 
+
+if (typeof program.host === "undefined") 
+{
+   program.help();
+}
+
 //Match IP address from nginx logs.
 var ipRegex = /v1\|(.*?)\|/;
 var markers = [];
