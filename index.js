@@ -101,6 +101,12 @@ conn.on("ready", function()
 	privateKey: require("fs").readFileSync(program.key)
 });
 
+// Quit on Escape, q, or Control-C.
+screen.key(['escape', 'q', 'C-c'], function(ch, key) 
+{
+  return process.exit(0);
+});
+
 //Updates the map using the markers array.
 function updateMap()
 {
