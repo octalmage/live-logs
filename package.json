@@ -14,5 +14,9 @@
   },
   "bin": {
     "live-logs": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octalmage/live-logs.git"
   }
 }
