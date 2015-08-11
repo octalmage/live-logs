@@ -9,8 +9,8 @@ var program = require("commander");
 //The command line options!
 program
 	.version('0.0.1')
-	.description('Shows live traffic on a map.')
 	.option('-h, --host <host>', 'hostname or IP address')
+	.description('Display live traffic on a map.')
 	.option('-u, --username <username>', 'ssh username')
 	.option('-k, --key <key>', 'private key path')
 	.option('-l, --log <log>', 'access log path on server')
