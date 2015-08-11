@@ -1,4 +1,4 @@
-# Live Logs
+# Live Logs [![](https://img.shields.io/npm/v/live-logs.png)](https://www.npmjs.com/package/live-logs)
 > Display live traffic on a map.
 
 ![](https://cloudup.com/iso9-SCOvCD+)
