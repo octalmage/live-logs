@@ -1,7 +1,7 @@
 {
   "name": "live-logs",
   "version": "0.0.1",
-  "description": "Shows live traffic on a map.",
+  "description": "Display live traffic on a map.",
   "main": "index.js",
   "author": "Jason Stallings",
   "license": "GPL v2",
