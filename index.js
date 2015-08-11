@@ -17,7 +17,7 @@ program
 	.option('-r, --regex [regex]', 'regex for matching the IP address')
 	.parse(process.argv);
 
-
+//Show help by default.
 if (typeof program.host === "undefined") 
 {
    program.help();
