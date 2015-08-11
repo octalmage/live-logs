@@ -11,5 +11,8 @@
     "commander": "^2.8.1",
     "geoip-lite": "^1.1.6",
     "ssh2": "^0.4.10"
+  },
+  "bin": {
+    "live-logs": "index.js"
   }
 }
