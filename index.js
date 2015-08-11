@@ -14,7 +14,7 @@ program
 	.option('-u, --username <username>', 'ssh username')
 	.option('-k, --key <key>', 'private key path')
 	.option('-l, --log <log>', 'access log path on server')
-	.option('-r, --regex [regex]', 'regex for matching the IP address')
+	.option('-r, --regex [regex]', 'regex for matching the IP address [v1\|(.*?)\|]', 'v1\\\|(.*?)\\\|')
 	.parse(process.argv);
 
 //Show help by default.
@@ -23,8 +23,8 @@ if (typeof program.host === "undefined")
    program.help();
 }
 
-//Match IP address from nginx logs.
-var ipRegex = /v1\|(.*?)\|/;
+//Create regex for IP matching.
+var ipRegex = new RegExp(program.regex);
 var markers = [];
 
 //Get ready for the ssh connection.
