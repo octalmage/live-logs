@@ -1,0 +1,15 @@
+{
+  "name": "live-logs",
+  "version": "0.0.1",
+  "description": "Shows live traffic on a map.",
+  "main": "index.js",
+  "author": "Jason Stallings",
+  "license": "GPL v2",
+  "dependencies": {
+    "blessed": "^0.1.80",
+    "blessed-contrib": "^2.3.3",
+    "commander": "^2.8.1",
+    "geoip-lite": "^1.1.6",
+    "ssh2": "^0.4.10"
+  }
+}
