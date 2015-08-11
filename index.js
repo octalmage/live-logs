@@ -14,7 +14,7 @@ program
 	.option('-u, --username <username>', 'ssh username')
 	.option('-k, --key <key>', 'private key path')
 	.option('-l, --log <log>', 'access log path on server')
-	.option('-r, --regex [regex]', 'regex for matching the IP address [v1\|(.*?)\|]', 'v1\\\|(.*?)\\\|')
+	.option('-r, --regex [regex]', 'regex for matching the IP address [v1\\\|(.*?)\\\|]', 'v1\\\|(.*?)\\\|')
 	.parse(process.argv);
 
 //Show help by default.
