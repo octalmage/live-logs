@@ -4,7 +4,7 @@
   "description": "Display live traffic on a map.",
   "main": "index.js",
   "author": "Jason Stallings",
-  "license": "GPL v2",
+  "license": "MIT",
   "dependencies": {
     "blessed": "^0.1.80",
     "blessed-contrib": "^2.3.3",
