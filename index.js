@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var blessed = require("blessed");
 var contrib = require("blessed-contrib");
 var Client = require("ssh2").Client;
