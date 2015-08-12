@@ -6,6 +6,9 @@ var Client = require("ssh2").Client;
 var geoip = require("geoip-lite");
 var program = require("commander");
 
+//Load package.json.
+var pjson = require("./package.json");
+
 //The command line options!
 program
 	.version('0.0.1')
