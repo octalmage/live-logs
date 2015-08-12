@@ -11,7 +11,7 @@ var pjson = require("./package.json");
 
 //The command line options!
 program
-	.version('0.0.1')
+	.version(pjson.version)
 	.description('Display live traffic on a map.')
 	.option('-s, --host <host>', 'hostname or IP address')
 	.option('-u, --username <username>', 'ssh username')
