@@ -71,6 +71,10 @@ conn.on("ready", function()
 
 			var geo = geoip.lookup(match[1]);
 
+			//Return if geoip lookup fails.
+			if (!geo)
+				return;
+
 			geo.ip = ip;
 
 			//Make sure the IP doesn't already exist on the map.
