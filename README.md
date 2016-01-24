@@ -26,6 +26,12 @@ npm install -g live-logs
     -l, --log <log>            access log path on server
     -r, --regex [regex]        regex for matching the IP address
 ```
+
+## Example
+
+```
+live-logs -s 123.123.123.123 -u root -k ~/.ssh/key -l /var/log/site.access.log
+```
     
 ## License
 
